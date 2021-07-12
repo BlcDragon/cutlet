@@ -1,0 +1,5 @@
+name: "VK"
+main: "ru.blc.cutlet.vk.VkModule"
+description: "Module for vk bots"
+version: '1.5.43'
+author: 'Blc_Dragon'

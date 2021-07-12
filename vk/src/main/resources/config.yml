@@ -1,0 +1,9 @@
+server:
+  #set to false if you don't need callback server. (if you are using long poll api for example)
+  enabled: true
+  #http address of page with callback. final address will {ip}/{address} ('/' symbol will appended if there is no this symbol at address)
+  address: "callback_vk"
+  #ip 0.0.0.0 allows any ip
+  ip: '0.0.0.0'
+  #vk can't change port of callback api, so changing it can broke all vk bots
+  port: 80
